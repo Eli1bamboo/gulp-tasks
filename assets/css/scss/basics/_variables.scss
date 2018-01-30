@@ -1,0 +1,13 @@
+// SITE FONTS
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,900');
+$primary-font: 'Roboto', sans-serif;
+
+//SITE COLOR PALLETE
+$bodyBackground: #FDF8C7;
+$headingsColor: #9D2C4C;
+$textColor: #4C0B32;
+
+//estamos probando el gulp
+body{
+    font-family: $primary-font;
+}

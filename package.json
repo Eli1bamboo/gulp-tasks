@@ -1,0 +1,27 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elias Turrin",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^4.0.0-beta.3",
+    "browser-sync": "2.18.13",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "4.0.0",
+    "gulp-connect-php": "1.0.1",
+    "gulp-if": "2.0.2",
+    "gulp-notify": "3.0.0",
+    "gulp-sass": "2.3.2",
+    "gulp-sass-glob-import": "0.1.0",
+    "gulp-sourcemaps": "2.6.1",
+    "gulp-uglify": "3.0.0",
+    "slick-carousel": "1.8.1",
+    "yargs": "9.0.1"
+  }
+}

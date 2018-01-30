@@ -1,0 +1,42 @@
+@mixin parallax(){
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin colCenter(){
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@mixin transition($transition-time: .25s, $transition-property: all, $method: ease-in-out) {
+    transition: $transition-property $transition-time $method;
+}
+
+@mixin elemCenter(
+	$position: absolute,
+	$left: 50%,
+	$top: 50%
+	){
+	position: $position;
+    left: $left;
+    top: $top;
+    transform: translate(-50%,-50%);
+}
+
+@mixin placeholder(){
+    &:-moz-placeholder {
+        @content;
+    }
+    &::-moz-placeholder {
+        @content;
+    } // Firefox 19+
+    &:-ms-input-placeholder {
+        @content;
+    } // Internet Explorer 10+
+    &::-webkit-input-placeholder {
+        @content;
+    } // Safari and Chrome
+}
